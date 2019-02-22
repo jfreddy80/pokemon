@@ -502,7 +502,7 @@
 											"font": "Arial;13;1",
 											"left": 301,
 											"top": 183,
-											"width": 106.158203125,
+											"width": 144.5361328125,
 											"height": 13,
 											"text": "PoquemonFuego"
 										},
@@ -537,7 +537,7 @@
 									"font": "Arial;13;0",
 									"left": 296,
 									"top": 176,
-									"width": 116.158203125,
+									"width": 154.5361328125,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFpDPdPdEd2BpU="
@@ -561,11 +561,30 @@
 									"model": {
 										"$ref": "AAAAAAFpDPS0xEdo4xI="
 									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFpFfi55U/SPQ4=",
+											"_parent": {
+												"$ref": "AAAAAAFpDPdPdEd6pNk="
+											},
+											"model": {
+												"$ref": "AAAAAAFpFfi50E/Ph1w="
+											},
+											"font": "Arial;13;0",
+											"left": 301,
+											"top": 206,
+											"width": 144.5361328125,
+											"height": 13,
+											"text": "-probabilidadDefensa: int",
+											"horizontalAlignment": 0
+										}
+									],
 									"font": "Arial;13;0",
 									"left": 296,
 									"top": 201,
-									"width": 116.158203125,
-									"height": 10
+									"width": 154.5361328125,
+									"height": 23
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -578,8 +597,8 @@
 									},
 									"font": "Arial;13;0",
 									"left": 296,
-									"top": 211,
-									"width": 116.158203125,
+									"top": 224,
+									"width": 154.5361328125,
 									"height": 10
 								},
 								{
@@ -619,8 +638,8 @@
 							"containerChangeable": true,
 							"left": 296,
 							"top": 176,
-							"width": 116.158203125,
-							"height": 45,
+							"width": 154.5361328125,
+							"height": 58,
 							"nameCompartment": {
 								"$ref": "AAAAAAFpDPdPdEd1XqI="
 							},
@@ -1064,7 +1083,19 @@
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
 					"name": "PoquemonFuego",
-					"visibility": "private"
+					"visibility": "private",
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFpFfi50E/Ph1w=",
+							"_parent": {
+								"$ref": "AAAAAAFpDPS0xEdo4xI="
+							},
+							"name": "probabilidadDefensa",
+							"visibility": "private",
+							"type": "int"
+						}
+					]
 				},
 				{
 					"_type": "UMLClass",
